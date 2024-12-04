@@ -7,11 +7,12 @@
 .dice {
   text-align: center;
   display: inline-block;
+  margin:auto;
 
 }
 
 body {
-  background-color: #393E46;
+  background-color: purple;
 }
 
 h1 {
@@ -25,20 +26,21 @@ h1 {
 p {
   font-size: 2rem;
   color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+  font-family: bold;
 }
 
 img {
-  width: 100%;
+  width: 80%;
+  display:flex;
 }
- .img img1:hover{
-	transform:scale(0.9)
+.dice img:hover{
+	transform:scale(0.9);
 }
 
 footer {
   margin-top: 5%;
   color: #EEEEEE;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: cursive;
 
 }
